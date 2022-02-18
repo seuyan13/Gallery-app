@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorite_unchecked"
+        android:checkable="true"
+        android:checked="true"
+        android:icon="@drawable/ic_favorite_unchecked"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/fullscreen"
+        android:checkable="true"
+        android:checked="false"
+        android:icon="@drawable/ic_fullscreen"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/speed_025"
+        android:checkable="true"
+        android:title="0.25 x" />
+
+    <item
+        android:id="@+id/speed_05"
+        android:checkable="true"
+        android:title="0.5 x" />
+
+    <item
+        android:id="@+id/speed_normal"
+        android:checkable="true"
+        android:checked="true"
+        android:title="Normal" />
+
+    <item
+        android:id="@+id/speed_125"
+        android:checkable="true"
+        android:title="1.25 x" />
+
+    <item
+        android:id="@+id/speed_15"
+        android:checkable="true"
+        android:title="1.5 x" />
+
+    <item
+        android:id="@+id/speed_2"
+        android:checkable="true"
+        android:title="2 x" />
+</menu>
