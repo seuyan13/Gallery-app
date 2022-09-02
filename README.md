@@ -1,1 +1,1 @@
-## Simple gallery app created in 2021
+## Simple gallery app
